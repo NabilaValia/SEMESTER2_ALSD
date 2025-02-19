@@ -11,11 +11,12 @@ public class MahasiswaMain11 {
         mhs1.updateIpk(3.60);  
         mhs1.tampilkanInformasi();  
 
+        System.out.println();
         Mahasiswa mhs2 = new Mahasiswa ("Annisa Nabila","2141720160", 3.25,"TI 2L");
         mhs2.updateIPK(3.30);  
         mhs2.tampilkanInformasi();
 
-        Mahasiswa mhsNabila = new Mahasiswa ("Nabil","244107060086", 3.85,"SIB 1E");
+        Mahasiswa mhsNabila = new Mahasiswa ("Nabila","244107060086", 3.85,"SIB 1E");
     }  
 }  
 class Mahasiswa11 {  
