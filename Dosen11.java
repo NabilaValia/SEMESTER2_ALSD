@@ -20,11 +20,11 @@ public class Dosen11 {
         this.bidang = bidang;  
     }  
     public void tampilInformasi() {  
-        System.out.println("ID Dosen: " + idDosen);  
-        System.out.println("Nama Dosen: " + namaDosen);  
-        System.out.println("Status Aktif: " + (statusAktif ? "Aktif" : "Tidak Aktif"));  
+        System.out.println("ID Dosen       : " + idDosen);  
+        System.out.println("Nama Dosen     : " + namaDosen);  
+        System.out.println("Status Aktif   : " + (statusAktif ? "Aktif" : "Tidak Aktif"));  
         System.out.println("Tahun Bergabung: " + tahunBergabung);  
-        System.out.println("Bidang: " + bidang);  
+        System.out.println("Bidang         : " + bidang);  
     }  
     public void setStatusAktif(boolean status) {  
         this.statusAktif = status;  
